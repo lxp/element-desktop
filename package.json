@@ -138,9 +138,13 @@
     },
     "win": {
       "target": [
-        "squirrel"
+        "squirrel",
+        "msi"
       ],
       "sign": "scripts/electron_winSign"
+    },
+    "msi": {
+      "perMachine": true
     },
     "directories": {
       "output": "dist"
